@@ -1,0 +1,17 @@
+# Python
+.nox
+*.egg*
+__pycache__
+dist
+build
+
+# Test results and coverage
+*.xml
+results.txt
+htmlcov
+.coverage
+
+# Docs
+html
+**/pdoc
+

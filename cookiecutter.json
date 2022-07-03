@@ -1,0 +1,13 @@
+{
+  "repo_name": "python_console_app",
+  "package_name": "python_console_app",
+  "author": "Krzysztof J. Czarnecki",
+  "copyright_holder": "Krzysztof J. Czarnecki",
+  "email": "kjczarne@gmail.com",
+  "repo_url": "https://github.com/kjczarne/???",
+  "package_description": "",
+  "license": [ "MIT", "Apache 2.0", "BSD", "ISC", "GPLv3+", "Proprietary" ],
+  "package_keywords": "",
+  "python_version_major": 3,
+  "python_version_minor": 10
+}
