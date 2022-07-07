@@ -7,8 +7,11 @@ def uml(session: nox.Session):
     session.install("pylint")
     session.install("pydot")
     import pydot
-    with session.chdir("design"):
-        session.run(*"pyreverse {{cookiecutter.package_name}}".split(" "))
+    import os
+    target_directory = "design"
+    os.makedirs(target_directory, exist_ok=True)
+    with session.chdir(target_directory):
+        session.run(*"pyreverse python_console_app".split(" "))
 
 
 @nox.session
